@@ -1,0 +1,38 @@
+[
+  {
+    "username": "vickykaushal",
+    "image": "https://firebasestorage.googleapis.com/v0/b/image-54c28.appspot.com/o/post2.jpg?alt=media&token=907ced8c-5581-4ebd-9b20-455a7f5e499d",
+    "time": 12,
+    "likes": 14591,
+    "comments": 198
+  },
+    {
+      "username": "crictracker",
+      "image": "https://firebasestorage.googleapis.com/v0/b/image-54c28.appspot.com/o/post1.jpg?alt=media&token=4eccb18c-0956-440c-9557-91487828c5b8",
+      "time": 14,
+      "likes": 123042,
+      "comments": 275
+    },
+    {
+      "username": "rvcjinsta",
+      "image": "https://firebasestorage.googleapis.com/v0/b/image-54c28.appspot.com/o/post3.jpeg?alt=media&token=dc82b5f3-7306-4b30-afb5-0424de7ee584",
+      "time": 5,
+      "likes": 74205,
+      "comments": 220
+    },
+    {
+      "username": "crictracker",
+      "image": "https://firebasestorage.googleapis.com/v0/b/image-54c28.appspot.com/o/post4.jpeg?alt=media&token=bd5063db-5275-4ff0-91e3-9bb5d1f0f1da",
+      "time": 8,
+      "likes": 5204,
+      "comments": 150
+    },
+    {
+      "username": "rvcjinsta",
+      "image": "https://firebasestorage.googleapis.com/v0/b/image-54c28.appspot.com/o/post5.jpg?alt=media&token=011e719e-790c-49ff-8644-0432fe030fee",
+      "time": 1,
+      "likes": 1965,
+      "comments": 123
+    }
+  ]
+  

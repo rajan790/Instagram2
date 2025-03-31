@@ -1,0 +1,152 @@
+.postsContainer
+{
+  position: static;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 15px;
+  height: fit-content;
+  
+}
+.postContainer{
+  display: flex;
+flex-direction: column;
+  width: 468px;
+  border-bottom: 0.1px solid #2e2d2d;
+  margin-bottom: 15px;
+}
+.postHeader
+{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.dpContainer
+{
+  display: flex;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+}
+.dp
+{
+  width: 35px;
+  height: 35px;
+  margin-top: 1px;
+  margin-right: 0.3px;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+.username
+{
+  margin-left: 10px;
+  font-weight: 600;
+  font-size: 14px;
+}
+.timeContainer
+{
+  display: flex;
+  align-items: center;
+  color: #a8a8a8;
+  margin-left: 6px;
+}
+.dot{
+  font-size: 8px;
+}
+.time{
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 4px;
+}
+.threeBtns{
+  margin-left: auto;
+  font-size: 20px;
+  font-weight: 500;
+}
+.postImg
+{
+  width: 468px;
+  height: 585px;
+  border-radius: 4px;
+  pointer-events: none;
+    user-drag: none;
+    -webkit-user-drag: none;
+  border:0.2px solid rgba(255, 255, 255, 0.171);
+}
+.reactions
+{
+  display: flex;
+  margin-top: 8px;
+  width: 100%;
+  gap: 12px;
+}
+.saveIcon
+{
+  margin-left: auto;
+}
+.likesContainer
+{
+  font-size: 14.5px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.titleContainer
+{
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 7px;
+  line-height: 18px;
+  whiteSpace: "pre-wrap";
+}
+.readMoreBtn
+{
+  color: #a8a8a8;
+  cursor: pointer;
+}
+.comment-section
+{
+  margin-top: 6px;
+  color: #a8a8a8;
+  font-weight: 400;
+  font-size: 14px;
+}
+.addComment
+{
+  background: none;
+  border: none;
+  color: white;
+  padding: 1px;
+  font-size: 14px;
+  font-weight: 500;
+  outline: none;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.addComment::placeholder
+{
+  color: #a8a8a8;
+}
+.heartIcon,.saveIcon,.comments,.Share
+{
+  cursor: pointer;
+  color: white;
+}
+.heartIcon:hover{
+  color: #a8a8a8;
+}
+.saveIcon:hover
+{
+  color: #a8a8a8;
+}
+.comments:hover{
+  color: #a8a8a8;
+}
+.Share:hover
+{
+  color: #a8a8a8;
+}

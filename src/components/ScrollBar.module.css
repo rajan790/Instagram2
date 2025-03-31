@@ -1,0 +1,185 @@
+/* ScrollBar Container */
+.ScrollBar {
+  position: fixed;
+  display: flex;
+  flex-direction: column; /* Keeps the layout vertical */
+  width: 245px;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  padding-left: 20px;
+  border-right: 0.2px solid rgb(39, 39, 39);
+  transition: width 0.3s ease; /* Smooth width transition */
+  background-color: black;
+}
+
+/* Logo Section */
+.logo {
+  display: flex;
+  align-items: center;
+  margin-top: 28px;
+  cursor: pointer;
+}
+
+/* Instagram Logo */
+.insta-logo {
+  height: 50px;
+  width: 130px;
+}
+
+.insta {
+  display: none; /* Hidden by default, shown on small screens */
+}
+
+/* Main Content Section */
+.main-content {
+  height: 440px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 22px;
+  justify-content: space-between;
+  margin-right: 15px;
+}
+
+/* Navigation Items */
+.main {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  height: fit-content;
+  transition: background-color 0.3s ease;
+}
+
+.main:hover {
+  background-color: rgba(157, 160, 160, 0.162);
+  border-radius: 5px;
+}
+
+/* Icons Styling */
+.home-logo {
+  color: white;
+  font-size: 1.8rem;
+}
+
+/* Text Styling */
+.main-content p,
+.main-down p {
+  font-size: 17px;
+  color: white;
+  font-weight: 400;
+}
+
+/* Profile Image */
+.profile-image {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+}
+
+/* Bottom Section */
+.main-down {
+  margin-top: auto; /* Pushes this section to the bottom */
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  margin-right: 15px;
+}
+.post
+{
+  background: none;
+  border: none;
+}
+/* Responsive Design */
+@media screen and (max-height: 721px) {
+  .ai-icon,.thread-icon
+  {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 1263px) {
+  /* Compact Sidebar */
+  .ScrollBar {
+    width: 82px; /* Shrinks sidebar */
+    align-items: center; /* Center items horizontally */
+    padding-left: 0; /* Remove left padding */
+  }
+  .main-content
+  {
+    margin-right: 0px;
+  }
+
+  /* Hide Main Text */
+  .main-content p,
+  .main-down p {
+    display: none;
+  }
+  .main-down 
+  {
+    margin-right: 0px;
+  }
+
+  /* Show Compact Logo */
+  .insta-logo {
+    display: none;
+  }
+  .insta {
+    display: block;
+    margin: 15px;
+  }
+
+  /* Hover Effect */
+  .main:hover {
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  .ScrollBar {
+    flex-direction: row;
+    width: 100%;
+    height: 60px; /* Adjust height for horizontal bar */
+    bottom: 0;
+    left: 0;
+    top: unset; /* Remove top positioning */
+    padding-left: 0;
+    border-right: none;
+    border-bottom: 0.2px solid rgb(39, 39, 39);
+    overflow-x: auto; /* Enable horizontal scrolling if needed */
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .main-content {
+    flex-direction: row;
+    height: auto;
+    width: 100%;
+    margin-top: 0;
+    margin-right: 0;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .main-down {
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 0;
+  }
+
+  .main {
+    flex-direction: column; 
+    gap: 5px;
+    padding: 5px;
+  }
+  .logo,.search,.notification,.main-down
+  {
+    display: none;
+  }
+
+ 
+}

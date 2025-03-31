@@ -1,0 +1,64 @@
+.storyContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  overflow-x: auto;
+  padding: 10px;
+  justify-content: space-between;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.storyContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.eachStory {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.profile {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.profileContainer {
+  display: flex;
+  width: 60px;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+}
+
+.storyName {
+  width: 59px;
+  font-size: 12px;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-top: 7px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .storyContainer {
+    gap: 12px;
+    padding: 8px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .storyContainer {
+    gap: 8px;
+    padding: 5px;
+  }
+}

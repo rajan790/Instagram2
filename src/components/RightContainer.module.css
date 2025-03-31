@@ -1,0 +1,122 @@
+.rightContainer {
+    width: 319px;
+    height: 450px;
+    margin-top: 35px;
+    margin-left: 4vw;
+    border-radius: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .profile {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .oneContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .userNameContainer p {
+    width: 186px;
+    font-size: 12px;
+    font-weight: 600; /* Fixed from font-display */
+    margin-left: 13px;
+  }
+  
+  .name {
+    color: #a8a8a8;
+  }
+  
+  .userName {
+    cursor: pointer;
+  }
+  
+  .switch {
+    font-size: 12px;
+    color: #0095f6;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .switch:hover {
+    color: white;
+  }
+  
+  .suggestContainer {
+    margin-top: 24px;
+  }
+  
+  .suggestTitle {
+    display: flex;
+    font-size: 12px;
+  }
+  
+  .seeAll:hover {
+    color: #a8a8a8;
+    cursor: pointer;
+  }
+  
+  .suggestPeopleContainer {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 2px;
+    flex-wrap: wrap;
+  }
+  
+  .eachPeopleContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 28px;
+  }
+  
+  .footerLinks {
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 16px;
+    max-height: fit-content;
+  }
+  
+  .footerLink {
+    color: rgb(115, 115, 115);
+    font-size: 12px;
+    height: fit-content;
+    font-weight: 400;
+  }
+  
+  .footerLink:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .footerCopy {
+    font-weight: 400;
+    font-size: 12px;
+    color: rgb(115, 115, 115);
+    margin-top: 25px;
+  }
+  
+  .dotContainer {
+    display: flex;
+    height: 6px;
+    margin: 2px 5px;
+    justify-content: center;
+    color: #737373;
+    align-items: center;
+  }
+  @media screen and (max-width: 1261px) {
+    .rightContainer
+    {
+      display: none;
+    }
+  }
